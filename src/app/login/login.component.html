@@ -1,0 +1,28 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1> Restaurent Login Portal</h1>
+                    <h5>You can login here!</h5>
+                </div>
+                <form [formGroup]="loginform" (ngSubmit)="login()"> 
+                    <div class="mb-3">
+                      <label class="form-label">Email address</label>
+                      <input [class.is-invalid]="loginform.get('email') ?.invalid && loginform.get('email')?.touched" formControlName="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address">
+                      <small *ngIf="loginform.get('email')?.errors?.['required'] && loginform.get('email')?.touched" class="text-danger">Valid Email Is Required</small>
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Password</label>
+                      <input [class.is-invalid]="loginform.get('password') ?.invalid && loginform.get('password')?.touched" formControlName="password"  type="password" class="form-control" id="exampleInputPassword1">
+                      <small *ngIf="loginform.get('password')?.invalid" class="text-danger">Password must contain minimum 5 character</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary" >Login</button>
+                  </form>
+                  <a style="color: blue; margin-top: 10px;" routerLink="/signup">New User? Click to Sign up</a>
+
+            </div>
+        </div>
+    </div>
+</div>

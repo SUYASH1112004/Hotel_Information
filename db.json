@@ -1,0 +1,102 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "name": "JW Mariot",
+      "address": "Pune",
+      "email": "JW@gmail.com",
+      "services": "Indian ",
+      "mobile": 764756856
+    },
+    {
+      "id": "2",
+      "name": "Akash",
+      "address": "Satara Road",
+      "email": "AKASH@gmail.com",
+      "services": "Spanish",
+      "mobile": 87596495
+    },
+    {
+      "id": "3",
+      "name": "Taj",
+      "address": "Mumbai ",
+      "email": "TajManagement@gmail.com",
+      "services": "Indian + Continental",
+      "mobile": 9823982398
+    },
+    {
+      "id": "4",
+      "name": "Surabhi",
+      "address": "Jm road",
+      "email": "surabhi@gmail.com",
+      "services": "Snacks",
+      "mobile": 165435434764
+    },
+    {
+      "id": "5",
+      "name": "abc",
+      "address": "abc",
+      "email": "abc@gmail.com",
+      "services": "coffee",
+      "mobile": 374354268
+    }
+  ],
+  "signup": [
+    {
+      "name": "Taj",
+      "email": "TajManagement@gmail.com",
+      "mobile": 9977997799,
+      "password": "password@123",
+      "id": "1"
+    },
+    {
+      "name": "Admin",
+      "email": "Marvellous@gmail.com",
+      "mobile": 7020717020,
+      "password": "Admin@123",
+      "id": "2"
+    },
+    {
+      "id": "b0ff",
+      "name": "Suyash",
+      "email": "suyash@gmail.com",
+      "mobile": 8459759157,
+      "password": "king@123"
+    },
+    {
+      "id": "5e37",
+      "name": "Suyash",
+      "email": "suyash@gmail.com",
+      "mobile": 8459759157,
+      "password": "king@123"
+    },
+    {
+      "id": "df55",
+      "name": "Suyash",
+      "email": "suyash1@gmail.com",
+      "mobile": 8456354458,
+      "password": "sjp123"
+    },
+    {
+      "id": "7377",
+      "name": "Suyash",
+      "email": "suyash1@gmail.com",
+      "mobile": 8456354458,
+      "password": "sjp123"
+    },
+    {
+      "id": "4834",
+      "name": "suyash",
+      "email": "first@123",
+      "mobile": 63546735734,
+      "password": "12345"
+    },
+    {
+      "id": "c89e",
+      "name": "suyash",
+      "email": "first@123",
+      "mobile": 63546735734,
+      "password": "12345"
+    }
+  ]
+}
